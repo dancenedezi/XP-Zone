@@ -472,7 +472,8 @@
   h1 {
     font-family: "Oxanium", serif;
     color: #f7f2fa;
-    font-size: 4.8rem;
+    letter-spacing: -0.3rem;
+    font-size: 3.2rem;
     line-height: 120%;
   }
   h1.gradient-text {
@@ -492,7 +493,8 @@
   h1 {
     font-family: "Oxanium", serif;
     color: #f7f2fa;
-    font-size: 4.8rem;
+    letter-spacing: -0.3rem;
+    font-size: 3.2rem;
     line-height: 120%;
   }
   h1.gradient-text {
@@ -512,7 +514,8 @@
   h1 {
     font-family: "Oxanium", serif;
     color: #f7f2fa;
-    font-size: 5.6rem;
+    letter-spacing: -0.3rem;
+    font-size: 4rem;
     line-height: 120%;
   }
   h1.gradient-text {
@@ -532,7 +535,8 @@
   h1 {
     font-family: "Oxanium", serif;
     color: #f7f2fa;
-    font-size: 7.2rem;
+    letter-spacing: -0.3rem;
+    font-size: 6rem;
     line-height: 100%;
   }
   h1.gradient-text {
@@ -568,6 +572,7 @@ h2 span {
   h2 {
     font-family: "Oxanium", serif;
     color: #f7f2fa;
+    letter-spacing: -0.3rem;
     font-size: 4rem;
     line-height: 120%;
   }
@@ -588,6 +593,7 @@ h2 span {
   h2 {
     font-family: "Oxanium", serif;
     color: #f7f2fa;
+    letter-spacing: -0.3rem;
     font-size: 4rem;
     line-height: 120%;
   }
@@ -608,6 +614,7 @@ h2 span {
   h2 {
     font-family: "Oxanium", serif;
     color: #f7f2fa;
+    letter-spacing: -0.3rem;
     font-size: 4.8rem;
     line-height: 120%;
   }
@@ -628,6 +635,7 @@ h2 span {
   h2 {
     font-family: "Oxanium", serif;
     color: #f7f2fa;
+    letter-spacing: -0.3rem;
     font-size: 6.4rem;
     line-height: 110%;
   }
@@ -649,6 +657,7 @@ h2 span {
   h3 {
     font-family: "Oxanium", serif;
     color: #f7f2fa;
+    letter-spacing: -0.3rem;
     font-size: 3.2rem;
     line-height: 120%;
   }
@@ -669,6 +678,7 @@ h2 span {
   h3 {
     font-family: "Oxanium", serif;
     color: #f7f2fa;
+    letter-spacing: -0.3rem;
     font-size: 3.2rem;
     line-height: 120%;
   }
@@ -689,6 +699,7 @@ h2 span {
   h3 {
     font-family: "Oxanium", serif;
     color: #f7f2fa;
+    letter-spacing: -0.3rem;
     font-size: 4rem;
     line-height: 120%;
   }
@@ -709,6 +720,7 @@ h2 span {
   h3 {
     font-family: "Oxanium", serif;
     color: #f7f2fa;
+    letter-spacing: -0.3rem;
     font-size: 5.6rem;
     line-height: 120%;
   }
@@ -730,6 +742,7 @@ h2 span {
   h4 {
     font-family: "Oxanium", serif;
     color: #f7f2fa;
+    letter-spacing: -0.3rem;
     font-size: 1.8rem;
     line-height: 130%;
   }
@@ -750,6 +763,7 @@ h2 span {
   h4 {
     font-family: "Oxanium", serif;
     color: #f7f2fa;
+    letter-spacing: -0.3rem;
     font-size: 1.8rem;
     line-height: 130%;
   }
@@ -770,6 +784,7 @@ h2 span {
   h4 {
     font-family: "Oxanium", serif;
     color: #f7f2fa;
+    letter-spacing: -0.3rem;
     font-size: 2.4rem;
     line-height: 130%;
   }
@@ -790,6 +805,7 @@ h2 span {
   h4 {
     font-family: "Oxanium", serif;
     color: #f7f2fa;
+    letter-spacing: -0.3rem;
     font-size: 4rem;
     line-height: 130%;
   }
@@ -811,6 +827,7 @@ h2 span {
   h5 {
     font-family: "Oxanium", serif;
     color: #f7f2fa;
+    letter-spacing: -0.3rem;
     font-size: 1.6rem;
     line-height: 150%;
   }
@@ -831,6 +848,7 @@ h2 span {
   h5 {
     font-family: "Oxanium", serif;
     color: #f7f2fa;
+    letter-spacing: -0.3rem;
     font-size: 1.6rem;
     line-height: 150%;
   }
@@ -851,6 +869,7 @@ h2 span {
   h5 {
     font-family: "Oxanium", serif;
     color: #f7f2fa;
+    letter-spacing: -0.3rem;
     font-size: 1.8rem;
     line-height: 150%;
   }
@@ -871,6 +890,7 @@ h2 span {
   h5 {
     font-family: "Oxanium", serif;
     color: #f7f2fa;
+    letter-spacing: -0.3rem;
     font-size: 2.4rem;
     line-height: 140%;
   }
@@ -892,6 +912,7 @@ h2 span {
   h6 {
     font-family: "Oxanium", serif;
     color: #f7f2fa;
+    letter-spacing: -0.3rem;
     font-size: 1.2rem;
     line-height: 150%;
   }
@@ -912,6 +933,7 @@ h2 span {
   h6 {
     font-family: "Oxanium", serif;
     color: #f7f2fa;
+    letter-spacing: -0.3rem;
     font-size: 1.2rem;
     line-height: 150%;
   }
@@ -932,6 +954,7 @@ h2 span {
   h6 {
     font-family: "Oxanium", serif;
     color: #f7f2fa;
+    letter-spacing: -0.3rem;
     font-size: 1.4rem;
     line-height: 150%;
   }
@@ -952,6 +975,7 @@ h2 span {
   h6 {
     font-family: "Oxanium", serif;
     color: #f7f2fa;
+    letter-spacing: -0.3rem;
     font-size: 1.6rem;
     line-height: 140%;
   }
@@ -977,7 +1001,7 @@ label {
   p,
   label {
     font-family: "Open Sans", serif;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     line-height: 130%;
   }
 }
@@ -985,7 +1009,7 @@ label {
   p,
   label {
     font-family: "Open Sans", serif;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     line-height: 130%;
   }
 }
@@ -1006,68 +1030,45 @@ label {
   }
 }
 
-.btn {
+.btn,
+input,
+select {
   color: #f7f2fa;
 }
 @media screen and (max-width: 540px) {
-  .btn {
+  .btn,
+  input,
+  select {
     font-family: "Open Sans", serif;
     font-size: 1.6rem;
     line-height: 150%;
   }
 }
 @media screen and (min-width: 540px) {
-  .btn {
+  .btn,
+  input,
+  select {
     font-family: "Open Sans", serif;
     font-size: 1.6rem;
     line-height: 150%;
   }
 }
 @media screen and (min-width: 768px) {
-  .btn {
+  .btn,
+  input,
+  select {
     font-family: "Open Sans", serif;
     font-size: 1.8rem;
     line-height: 150%;
   }
 }
 @media screen and (min-width: 960px) {
-  .btn {
+  .btn,
+  input,
+  select {
     font-family: "Open Sans", serif;
     font-size: 2rem;
     line-height: 140%;
-  }
-}
-
-@media screen and (max-width: 540px) {
-  input,
-  select {
-    font-family: "Open Sans", serif;
-    font-size: 1.6rem;
-    line-height: 130%;
-  }
-}
-@media screen and (min-width: 540px) {
-  input,
-  select {
-    font-family: "Open Sans", serif;
-    font-size: 1.6rem;
-    line-height: 130%;
-  }
-}
-@media screen and (min-width: 768px) {
-  input,
-  select {
-    font-family: "Open Sans", serif;
-    font-size: 1.8rem;
-    line-height: 130%;
-  }
-}
-@media screen and (min-width: 960px) {
-  input,
-  select {
-    font-family: "Open Sans", serif;
-    font-size: 2.4rem;
-    line-height: 130%;
   }
 }
 
@@ -1084,7 +1085,7 @@ strong {
 @media screen and (min-width: 540px) {
   strong {
     font-family: "Open Sans", serif;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     line-height: 130%;
   }
 }
@@ -1221,20 +1222,110 @@ svg {
 
 .header-wrapper {
   width: 100vw;
+  background: linear-gradient(182deg, rgba(0, 0, 0, 0) 67.62%, #000 93.88%), linear-gradient(0deg, rgba(0, 0, 0, 0) 71.5%, rgba(0, 0, 0, 0.55) 100%), linear-gradient(270deg, rgba(0, 0, 0, 0) 33.5%, rgba(0, 0, 0, 0.55) 73.5%), url("../../img/hero-banner4.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
-header {
+.header {
   max-width: 1440px;
   padding-inline: 0.8rem;
   margin-inline: auto;
 }
 @media screen and (min-width: 768px) {
-  header {
+  .header {
     padding-inline: 1.6rem;
   }
 }
 @media screen and (min-width: 960px) {
-  header {
+  .header {
     padding-inline: 2.4rem;
   }
+}
+
+.header-content {
+  max-width: 32rem;
+  margin-inline: auto;
+  padding-block: 4.8rem 10.6rem;
+}
+@media screen and (min-width: 768px) {
+  .header-content {
+    max-width: 36rem;
+    padding-block: 4.8rem 9.6rem;
+    margin-inline: 0;
+  }
+}
+@media screen and (min-width: 960px) {
+  .header-content {
+    max-width: 56rem;
+    padding-block: 20rem;
+  }
+}
+
+.search-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  width: 100%;
+  padding: 1.6rem 2.4rem;
+  margin-top: 2.4rem;
+  border: 1px solid #f7f2fa;
+  border-radius: 0.8rem;
+  background: rgba(176, 176, 176, 0.16);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+}
+@media screen and (min-width: 960px) {
+  .search-form {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3.2rem;
+  }
+}
+
+.input-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+.input-wrapper input {
+  height: 3.2rem;
+  width: 100%;
+  color: #f7f2fa;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+.input-wrapper input:focus {
+  border-bottom: 1px solid #a5a5a5;
+}
+
+.button-search {
+  width: 2rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.border-decoration {
+  width: 100%;
+  height: 1px;
+  background-color: #f7f2fa;
+}
+@media screen and (min-width: 960px) {
+  .border-decoration {
+    width: 1px;
+    height: 2.8rem;
+  }
+}
+
+#select-filter {
+  background: transparent;
+  color: #f7f2fa;
+  border: none;
+}
+#select-filter option {
+  color: #232224;
 }/*# sourceMappingURL=style.css.map */
