@@ -1,0 +1,50 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import "partials/colors";
+@import "partials/spacing";
+@import "partials/layout";
+@import "partials/typography";
+@import "partials/buttons";
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  width: 100%;
+  position: relative;
+
+  color: $white-normal;
+  font-family: "Open Sans", serif;
+
+  scroll-behavior: smooth;
+
+  background-color: #000;
+}
+
+img,
+svg {
+  display: block;
+  width: 100%;
+}
+
+.border {
+  border: 1px solid #f00;
+}
+
+@import "partials/menu";
+@import "partials/header";
+// @import "partials/swiper";
+@import "partials/icons";
+@import "partials/footer";
+@import "partials/animations";

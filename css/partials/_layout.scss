@@ -1,0 +1,69 @@
+// Container devices
+$container-xxl: 1440px;
+$container-xl: 1140px;
+$container-l: 960px;
+$container-m: 768px;
+$container-s: 540px;
+
+@mixin responsive($device) {
+  // Para resoluções a partir de 1440px
+  @if $device == xxl {
+    @media screen and (min-width: $container-xxl) {
+      @content;
+    }
+  }
+
+  // Para resoluções a partir 1140px
+  @else if $device == xl {
+    @media screen and (min-width: $container-xl) {
+      @content;
+    }
+  }
+
+  // Para resoluções a partir de 960px
+  @else if $device == l {
+    @media screen and (min-width: $container-l) {
+      @content;
+    }
+  }
+
+  // Para resoluções a partir de 768px
+  @else if $device == m {
+    @media screen and (min-width: $container-m) {
+      @content;
+    }
+  }
+
+  // Para resoluções a partir de 540px
+  @else if $device == s {
+    @media screen and (min-width: $container-s) {
+      @content;
+    }
+  }
+
+  // Para resoluções de no máximo 540px
+  @else if $device == xs {
+    @media screen and (max-width: $container-s) {
+      @content;
+    }
+  }
+}
+
+// ! Precisa ser alterado
+.container {
+  max-width: $container-xxl;
+  margin-inline: auto;
+
+  padding: 9.6rem 2.4rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  overflow: hidden;
+
+  @include responsive(s) {
+    flex-direction: column;
+    padding: 32px 18px;
+  }
+}
