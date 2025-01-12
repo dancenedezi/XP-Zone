@@ -98,7 +98,7 @@
 
   // P1
   @if $size == p1 and $device == desktop {
-    font-size: 2rem;
+    font-size: 2.4rem;
     line-height: 130%;
   } @else if $size == p1 and $device == tablet {
     font-size: 1.8rem;
@@ -110,10 +110,10 @@
 
   // P2
   @else if $size == p2 and $device == desktop {
-    font-size: 1.8rem;
+    font-size: 2rem;
     line-height: 140%;
   } @else if $size == p2 and $device == tablet {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     line-height: 150%;
   } @else if $size == p2 and $device == mobile {
     font-size: 1.6rem;
@@ -275,6 +275,25 @@ label {
 
   @include responsive(l) {
     @include typeface-2(p1, desktop);
+  }
+}
+
+.btn {
+  color: $white-normal;
+  @include responsive(xs) {
+    @include typeface-2(p2, mobile);
+  }
+
+  @include responsive(s) {
+    @include typeface-2(p2, mobile);
+  }
+
+  @include responsive(m) {
+    @include typeface-2(p2, tablet);
+  }
+
+  @include responsive(l) {
+    @include typeface-2(p2, desktop);
   }
 }
 

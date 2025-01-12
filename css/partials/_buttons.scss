@@ -1,0 +1,25 @@
+.buttons {
+  display: flex;
+  gap: 0.8rem;
+}
+
+.btn {
+  padding: 1rem 2rem;
+  text-decoration: none;
+
+  border: 1px solid $white-normal;
+  border-radius: 0.8rem;
+  background: rgba(176, 176, 176, 0.16);
+  backdrop-filter: blur(10px);
+
+  transition: 0.5s;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.btn-secondary {
+  background: $bg-btn;
+  border: transparent;
+}
