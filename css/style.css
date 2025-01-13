@@ -697,6 +697,84 @@
   transform: translate(-50%, -50%) rotate(-90deg);
 }
 
+.explanation-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  margin-top: 3.2rem;
+}
+.explanation-list .list-item {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  position: relative;
+  font-size: 1.6rem !important;
+}
+.explanation-list .list-item:not(:last-child)::before {
+  content: "";
+  display: block;
+  height: 5rem;
+  width: 1rem;
+  position: absolute;
+  top: 90%;
+  left: 2.54rem;
+  z-index: -1;
+  background: #353436;
+}
+@media screen and (min-width: 768px) {
+  .explanation-list .list-item:not(:last-child)::before {
+    display: none;
+  }
+}
+.explanation-list .list-item img {
+  width: 6rem;
+  padding: 2rem;
+  background: #353436;
+  border-radius: 50%;
+}
+@media screen and (min-width: 768px) {
+  .explanation-list {
+    flex-direction: row;
+    align-items: flex-start;
+    position: relative;
+  }
+  .explanation-list::before {
+    content: "";
+    width: 85%;
+    height: 1rem;
+    position: absolute;
+    top: 2.54rem;
+    left: 50%;
+    z-index: -1;
+    transform: translateX(-50%);
+    background: #353436;
+  }
+  .explanation-list .list-item {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 960px) {
+  .explanation-list::before {
+    content: "";
+    width: 85%;
+    height: 3rem;
+    position: absolute;
+    top: 4.54rem;
+    left: 50%;
+    z-index: -1;
+    transform: translateX(-50%);
+    background: #353436;
+  }
+  .explanation-list .list-item img {
+    width: 12rem;
+    padding: 4rem;
+    overflow: visible;
+  }
+}
+
 @media screen and (max-width: 540px) {
   h1 {
     font-family: "Oxanium", serif;
@@ -1174,11 +1252,6 @@ h2 span {
   }
 }
 
-p,
-label,
-li {
-  color: #f7f2fa;
-}
 @media screen and (max-width: 540px) {
   p,
   label,
@@ -1261,6 +1334,10 @@ select {
 .bold {
   font-weight: bold;
   color: inherit;
+}
+
+.explanation-list .list-item {
+  font-size: 1.6rem;
 }
 
 .buttons {
