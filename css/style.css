@@ -588,7 +588,7 @@
 
 .double-section-1 {
   width: 100%;
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 76%, #000 93%), linear-gradient(0deg, rgba(0, 0, 0, 0) 76%, #000 93%), url("../../img/background-god.png") rgba(15, 15, 15, 0) 50%;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 76%, #000 93%), linear-gradient(0deg, rgba(0, 0, 0, 0) 76%, #000 93%), url("../../img/background-god.png") rgba(0, 0, 0, 0.164) 50%;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -773,6 +773,73 @@
     padding: 4rem;
     overflow: visible;
   }
+}
+
+.double-section-2 {
+  width: 100%;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 76%, #000 93%), linear-gradient(0deg, rgba(0, 0, 0, 0) 76%, #000 93%), url("../../img/background-hogwarts.png") rgba(15, 15, 15, 0) 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.make-friends h2 {
+  margin-bottom: 3.2rem;
+}
+.make-friends .gamers {
+  max-width: 84rem;
+}
+.make-friends .friends-grid {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  position: relative;
+  z-index: 2;
+  transform: translateY(-1rem);
+}
+.make-friends .friends-grid img:nth-child(5),
+.make-friends .friends-grid img:nth-child(6),
+.make-friends .friends-grid img:nth-child(7),
+.make-friends .friends-grid img:nth-child(8) {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .make-friends .friends-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .make-friends .friends-grid img:nth-child(5),
+  .make-friends .friends-grid img:nth-child(6) {
+    display: block;
+  }
+}
+@media screen and (min-width: 960px) {
+  .make-friends .friends-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .make-friends .friends-grid img:nth-child(7),
+  .make-friends .friends-grid img:nth-child(8) {
+    display: block;
+  }
+}
+.make-friends .buttons {
+  margin-top: 3.2rem;
+}
+
+.card-zone {
+  gap: 5.6rem;
+}
+.card-zone .card {
+  width: 31.2rem;
+  height: 48.3rem;
+  background: url("../../img/card-dark.png");
+  background-size: cover;
+}
+.card-zone .buttons {
+  margin-top: 3.2rem;
+}
+.card-zone h2 {
+  margin-bottom: 1rem;
 }
 
 @media screen and (max-width: 540px) {
@@ -1581,4 +1648,34 @@ ul {
 }
 #select-filter option {
   color: #232224;
+}
+
+.card {
+  transform-origin: center center;
+  transform-style: preserve-3d;
+  background-size: cover;
+  animation: flip-card 12s linear infinite alternate, change-bg-card 12s linear infinite alternate;
+}
+
+@keyframes flip-card {
+  0% {
+    transform: rotateX(-10deg) rotateY(10deg) rotate(-15deg);
+  }
+  40% {
+    transform: rotateX(0deg) rotateY(0deg) rotate(20deg);
+  }
+  60% {
+    transform: rotateY(180deg) rotateY(20deg) rotate(0deg);
+  }
+  100% {
+    transform: rotateY(190deg) rotateY(10deg) rotate(15deg);
+  }
+}
+@keyframes change-bg-card {
+  0%, 48.5% {
+    background-image: url("../../img/card-dark.png");
+  }
+  50%, 100% {
+    background-image: url("../../img/card-dark-verse.png");
+  }
 }/*# sourceMappingURL=style.css.map */

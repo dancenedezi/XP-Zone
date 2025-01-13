@@ -1,0 +1,35 @@
+.card {
+  -webkit-transform-origin: center center;
+  transform-origin: center center;
+  transform-style: preserve-3d;
+  background-size: cover;
+
+  animation: flip-card 12s linear infinite alternate,
+    change-bg-card 12s linear infinite alternate;
+}
+
+@keyframes flip-card {
+  0% {
+    transform: rotateX(-10deg) rotateY(10deg) rotate(-15deg);
+  }
+  40% {
+    transform: rotateX(0deg) rotateY(0deg) rotate(20deg);
+  }
+  60% {
+    transform: rotateY(180deg) rotateY(20deg) rotate(0deg);
+  }
+  100% {
+    transform: rotateY(190deg) rotateY(10deg) rotate(15deg);
+  }
+}
+
+@keyframes change-bg-card {
+  0%,
+  48.5% {
+    background-image: url("../../img/card-dark.png");
+  }
+  50%,
+  100% {
+    background-image: url("../../img/card-dark-verse.png");
+  }
+}

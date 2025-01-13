@@ -193,7 +193,7 @@ $container-s: 540px;
   width: 100%;
   background: linear-gradient(180deg, rgba(0, 0, 0, 0) 76%, #000 93%),
     linear-gradient(0deg, rgba(0, 0, 0, 0) 76%, #000 93%),
-    url("../../img/background-god.png") rgba(15, 15, 15, 0) 50%;
+    url("../../img/background-god.png") rgba(0, 0, 0, 0.164) 50%;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -405,5 +405,85 @@ $container-s: 540px;
         overflow: visible;
       }
     }
+  }
+}
+
+.double-section-2 {
+  width: 100%;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 76%, #000 93%),
+    linear-gradient(0deg, rgba(0, 0, 0, 0) 76%, #000 93%),
+    url("../../img/background-hogwarts.png") rgba(15, 15, 15, 0) 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.make-friends {
+  h2 {
+    margin-bottom: 3.2rem;
+  }
+
+  .gamers {
+    max-width: 84rem;
+  }
+
+  .friends-grid {
+    display: grid;
+    justify-content: center;
+
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+
+    position: relative;
+    z-index: 2;
+    transform: translateY(-1rem);
+
+    img:nth-child(5),
+    img:nth-child(6),
+    img:nth-child(7),
+    img:nth-child(8) {
+      display: none;
+    }
+
+    @include responsive(m) {
+      grid-template-columns: repeat(3, 1fr);
+      img:nth-child(5),
+      img:nth-child(6) {
+        display: block;
+      }
+    }
+
+    @include responsive(l) {
+      grid-template-columns: repeat(4, 1fr);
+      // max-width: 80%;
+
+      img:nth-child(7),
+      img:nth-child(8) {
+        display: block;
+      }
+    }
+  }
+
+  .buttons {
+    margin-top: 3.2rem;
+  }
+}
+
+.card-zone {
+  gap: 5.6rem;
+
+  .card {
+    width: 31.2rem;
+    height: 48.3rem;
+    background: url("../../img/card-dark.png");
+    background-size: cover;
+  }
+
+  .buttons {
+    margin-top: 3.2rem;
+  }
+
+  h2 {
+    margin-bottom: 1rem;
   }
 }
