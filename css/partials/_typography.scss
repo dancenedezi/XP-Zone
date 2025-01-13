@@ -6,18 +6,16 @@
   color: $white-normal;
   letter-spacing: -0.3rem;
 
-  &.gradient-text {
-    background: $gradient-title;
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  background: $gradient-title;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 
-    span {
-      background-clip: initial;
-      -webkit-background-clip: initial;
-      -webkit-text-fill-color: initial;
-      color: inherit;
-    }
+  span {
+    background-clip: initial;
+    -webkit-background-clip: initial;
+    -webkit-text-fill-color: initial;
+    color: inherit;
   }
 
   // H1
@@ -34,25 +32,25 @@
 
   // H2
   @else if $size == h2 and $device == desktop {
-    font-size: 6.4rem;
+    font-size: 4.8rem;
     line-height: 110%;
   } @else if $size == h2 and $device == tablet {
-    font-size: 4.8rem;
+    font-size: 4rem;
     line-height: 120%;
   } @else if $size == h2 and $device == mobile {
-    font-size: 4rem;
+    font-size: 3.2rem;
     line-height: 120%;
   }
 
   // H3
   @else if $size == h3 and $device == desktop {
-    font-size: 5.6rem;
+    font-size: 3.2rem;
     line-height: 120%;
   } @else if $size == h3 and $device == tablet {
-    font-size: 4rem;
+    font-size: 2.4rem;
     line-height: 120%;
   } @else if $size == h3 and $device == mobile {
-    font-size: 3.2rem;
+    font-size: 2.4rem;
     line-height: 120%;
   }
 
@@ -260,7 +258,8 @@ h6 {
 
 // * Aplicação de padrões estabelecidos no mixin typeface-2
 p,
-label {
+label,
+li {
   color: $white-normal;
   @include responsive(xs) {
     @include typeface-2(p1, mobile);
@@ -305,9 +304,9 @@ select {
   color: inherit;
 }
 
-strong {
-  @include typeface-2(p1, desktop);
-  @include responsive(s) {
-    @include typeface-2(p1, mobile);
-  }
-}
+// strong {
+//   @include typeface-2(p1, desktop);
+//   @include responsive(s) {
+//     @include typeface-2(p1, mobile);
+//   }
+// }

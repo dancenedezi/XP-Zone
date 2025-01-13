@@ -36,6 +36,14 @@ body {
   border: 1px solid #f00;
 }
 
+img {
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
 @import "partials/menu";
 @import "partials/header";
 // @import "partials/swiper";

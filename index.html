@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -15,6 +15,7 @@
     />
   </head>
   <body>
+    <!-- HEADER -->
     <div class="header-wrapper">
       <header class="header">
         <!-- Navbar desktop -->
@@ -34,7 +35,7 @@
         </nav>
 
         <div class="header-content">
-          <h1 class="gradient-text">
+          <h1>
             >> <span>Compre</span> <br />
             Os melhores artigos gamers na sua cidade
           </h1>
@@ -93,16 +94,69 @@
       </header>
     </div>
 
+    <!-- MAIN -->
     <main>
+      <!-- CONSOLES -->
+      <div class="consoles">
+        <img src="./img/xbox.png" alt="" />
+        <img src="./img/ps4.png" alt="" />
+        <img src="./img/nintendo.png" alt="" />
+        <img src="./img/360.png" alt="" />
+        <img src="./img/wii.png" alt="" />
+      </div>
+
+      <!-- DOUBLE SECTION 1 -->
       <div class="double-section-1">
-        <div class="consoles">
-          <img src="./img/xbox.png" alt="" />
-          <img src="./img/ps4.png" alt="" />
-          <img src="./img/nintendo.png" alt="" />
-          <img src="./img/360.png" alt="" />
-          <img src="./img/wii.png" alt="" />
-        </div>
-        <section class="container"></section>
+        <!-- SECTION DISCOVER -->
+        <section class="container discover">
+          <div class="flex-item-1 flex-center pt-5">
+            <img src="./img/god-of-war.png" alt="" />
+          </div>
+
+          <div class="flex-item-1">
+            <h2>Conheça a XP Zone</h2>
+            <p>
+              Aqui você encontra jogadores da sua cidade em uma comunidade
+              segura <strong>para você trocar, comprar ou vender</strong> seus
+              artigos gamers, além disso, você terá a possibilidade de se
+              conectar com amigos e montar a sua própria comunidade.
+            </p>
+
+            <ul class="list">
+              <li class="list-item">Compre jogos novos e usados;</li>
+              <li class="list-item">Troque seus jogos por outros;</li>
+              <li class="list-item">Venda seus artigos gamers;</li>
+              <li class="list-item">Ganhe XP a cada interação.</li>
+            </ul>
+
+            <div class="buttons">
+              <a href="" class="btn btn-secondary">Anunciar grátis</a>
+            </div>
+          </div>
+        </section>
+
+        <!-- SECTION XP -->
+        <section class="container gain-xp">
+          <div class="flex-item-1 flex-start flex-column">
+            <h2>Ganhe XP e cresça na comunidade</h2>
+            <p>
+              <strong>A cada troca, compra ou venda</strong>, você acumula XP e
+              com eles você é rankeado na sua cidade tornando-se um membro mais
+              confiável para toda a comunidade e
+              <strong>recebendo benefícios exclusivos.</strong>
+            </p>
+
+            <div class="xp-content flex-center flex-column w-100 py-5">
+              <h3>Você ganhou 100 XP!</h3>
+
+              <div class="xp-bar w-50"></div>
+            </div>
+          </div>
+
+          <div class="flex-item-1 flex-center">
+            <img src="./img/hogwarts.png" alt="" />
+          </div>
+        </section>
       </div>
     </main>
 

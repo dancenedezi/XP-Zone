@@ -474,6 +474,84 @@
   }
 }
 
+.flex-start {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-end {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.relative {
+  position: relative;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.flex-item-1 {
+  flex: 1 1 360px;
+}
+
+.flex-item-2 {
+  flex: 2 1 360px;
+}
+
+.flex-item-3 {
+  flex: 3 1 360px;
+}
+
+.flex-item-4 {
+  flex: 4 1 360px;
+}
+
+.flex-item-5 {
+  flex: 5 1 360px;
+}
+
+.flex-item-5 {
+  flex: 1 1 auto;
+}
+
+.w-auto {
+  width: auto;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.w-75 {
+  width: 75%;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.w-25 {
+  width: 25%;
+}
+
 .consoles {
   height: 3.6rem;
   max-width: 1440px;
@@ -482,7 +560,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 0.8rem;
 }
 .consoles img {
   width: auto;
@@ -509,21 +586,130 @@
   }
 }
 
+.double-section-1 {
+  width: 100%;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 76%, #000 93%), linear-gradient(0deg, rgba(0, 0, 0, 0) 76%, #000 93%), url("../../img/background-god.png") rgba(15, 15, 15, 0) 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.discover {
+  gap: 1.6rem;
+}
+@media screen and (min-width: 768px) {
+  .discover {
+    gap: 8rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .discover {
+    gap: 8rem;
+  }
+}
+.discover > div {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+@media screen and (min-width: 768px) {
+  .discover > div {
+    gap: 2.4rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .discover > div {
+    gap: 3.6rem;
+  }
+}
+.discover > div .list-item {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  margin-bottom: 1rem;
+  position: relative;
+}
+.discover > div .list-item::before {
+  content: "";
+  display: block;
+  width: 2.4rem;
+  height: 2.4rem;
+  background: url("../../svg/icon-check.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.gain-xp {
+  flex-direction: column-reverse;
+}
+@media screen and (min-width: 768px) {
+  .gain-xp {
+    flex-direction: row;
+  }
+}
+.gain-xp > div {
+  gap: 1.6rem;
+}
+@media screen and (min-width: 768px) {
+  .gain-xp > div {
+    gap: 2.4rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .gain-xp > div {
+    gap: 3.6rem;
+  }
+}
+.gain-xp .xp-content {
+  gap: 1.6rem;
+  background-color: #232224;
+  border-radius: 0.8rem;
+}
+.gain-xp .xp-bar {
+  height: 1.8rem;
+  background-color: #353436;
+  position: relative;
+  border-radius: 0.8rem;
+}
+.gain-xp .xp-bar::before {
+  content: "";
+  display: block;
+  height: 1.2rem;
+  width: 80%;
+  background: linear-gradient(15deg, #0084ff 48%, #00c3ff 100%);
+  border-radius: 0.8rem;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 41.5%;
+}
+.gain-xp .xp-bar::after {
+  content: "";
+  display: block;
+  height: 3.2rem;
+  width: 3.2rem;
+  position: absolute;
+  top: 50%;
+  left: 80%;
+  filter: hue-rotate(200deg) brightness(140%);
+  background: url("../../img/fire.gif");
+  background-size: cover;
+  transform: translate(-50%, -50%) rotate(-90deg);
+}
+
 @media screen and (max-width: 540px) {
   h1 {
     font-family: "Oxanium", serif;
     color: #f7f2fa;
     letter-spacing: -0.3rem;
-    font-size: 3.2rem;
-    line-height: 120%;
-  }
-  h1.gradient-text {
-    background: linear-gradient(90deg, #e54a64 48%, #fe9951 100%);
+    background: linear-gradient(90deg, #0084ff 35%, #00c4ff 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-size: 3.2rem;
+    line-height: 120%;
   }
-  h1.gradient-text span {
+  h1 span {
     background-clip: initial;
     -webkit-background-clip: initial;
     -webkit-text-fill-color: initial;
@@ -535,16 +721,14 @@
     font-family: "Oxanium", serif;
     color: #f7f2fa;
     letter-spacing: -0.3rem;
-    font-size: 3.2rem;
-    line-height: 120%;
-  }
-  h1.gradient-text {
-    background: linear-gradient(90deg, #e54a64 48%, #fe9951 100%);
+    background: linear-gradient(90deg, #0084ff 35%, #00c4ff 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-size: 3.2rem;
+    line-height: 120%;
   }
-  h1.gradient-text span {
+  h1 span {
     background-clip: initial;
     -webkit-background-clip: initial;
     -webkit-text-fill-color: initial;
@@ -556,16 +740,14 @@
     font-family: "Oxanium", serif;
     color: #f7f2fa;
     letter-spacing: -0.3rem;
-    font-size: 4rem;
-    line-height: 120%;
-  }
-  h1.gradient-text {
-    background: linear-gradient(90deg, #e54a64 48%, #fe9951 100%);
+    background: linear-gradient(90deg, #0084ff 35%, #00c4ff 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-size: 4rem;
+    line-height: 120%;
   }
-  h1.gradient-text span {
+  h1 span {
     background-clip: initial;
     -webkit-background-clip: initial;
     -webkit-text-fill-color: initial;
@@ -577,16 +759,14 @@
     font-family: "Oxanium", serif;
     color: #f7f2fa;
     letter-spacing: -0.3rem;
-    font-size: 6rem;
-    line-height: 100%;
-  }
-  h1.gradient-text {
-    background: linear-gradient(90deg, #e54a64 48%, #fe9951 100%);
+    background: linear-gradient(90deg, #0084ff 35%, #00c4ff 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-size: 6rem;
+    line-height: 100%;
   }
-  h1.gradient-text span {
+  h1 span {
     background-clip: initial;
     -webkit-background-clip: initial;
     -webkit-text-fill-color: initial;
@@ -598,7 +778,7 @@ h2 {
   color: #f7f2fa;
 }
 h2.gradient-text {
-  background: linear-gradient(90deg, #e54a64 48%, #fe9951 100%);
+  background: linear-gradient(90deg, #0084ff 35%, #00c4ff 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -614,16 +794,14 @@ h2 span {
     font-family: "Oxanium", serif;
     color: #f7f2fa;
     letter-spacing: -0.3rem;
-    font-size: 4rem;
-    line-height: 120%;
-  }
-  h2.gradient-text {
-    background: linear-gradient(90deg, #e54a64 48%, #fe9951 100%);
+    background: linear-gradient(90deg, #0084ff 35%, #00c4ff 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-size: 3.2rem;
+    line-height: 120%;
   }
-  h2.gradient-text span {
+  h2 span {
     background-clip: initial;
     -webkit-background-clip: initial;
     -webkit-text-fill-color: initial;
@@ -635,16 +813,14 @@ h2 span {
     font-family: "Oxanium", serif;
     color: #f7f2fa;
     letter-spacing: -0.3rem;
-    font-size: 4rem;
-    line-height: 120%;
-  }
-  h2.gradient-text {
-    background: linear-gradient(90deg, #e54a64 48%, #fe9951 100%);
+    background: linear-gradient(90deg, #0084ff 35%, #00c4ff 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-size: 3.2rem;
+    line-height: 120%;
   }
-  h2.gradient-text span {
+  h2 span {
     background-clip: initial;
     -webkit-background-clip: initial;
     -webkit-text-fill-color: initial;
@@ -656,16 +832,14 @@ h2 span {
     font-family: "Oxanium", serif;
     color: #f7f2fa;
     letter-spacing: -0.3rem;
-    font-size: 4.8rem;
-    line-height: 120%;
-  }
-  h2.gradient-text {
-    background: linear-gradient(90deg, #e54a64 48%, #fe9951 100%);
+    background: linear-gradient(90deg, #0084ff 35%, #00c4ff 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-size: 4rem;
+    line-height: 120%;
   }
-  h2.gradient-text span {
+  h2 span {
     background-clip: initial;
     -webkit-background-clip: initial;
     -webkit-text-fill-color: initial;
@@ -677,16 +851,14 @@ h2 span {
     font-family: "Oxanium", serif;
     color: #f7f2fa;
     letter-spacing: -0.3rem;
-    font-size: 6.4rem;
+    background: linear-gradient(90deg, #0084ff 35%, #00c4ff 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 4.8rem;
     line-height: 110%;
   }
-  h2.gradient-text {
-    background: linear-gradient(90deg, #e54a64 48%, #fe9951 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-  h2.gradient-text span {
+  h2 span {
     background-clip: initial;
     -webkit-background-clip: initial;
     -webkit-text-fill-color: initial;
@@ -699,16 +871,14 @@ h2 span {
     font-family: "Oxanium", serif;
     color: #f7f2fa;
     letter-spacing: -0.3rem;
-    font-size: 3.2rem;
-    line-height: 120%;
-  }
-  h3.gradient-text {
-    background: linear-gradient(90deg, #e54a64 48%, #fe9951 100%);
+    background: linear-gradient(90deg, #0084ff 35%, #00c4ff 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-size: 2.4rem;
+    line-height: 120%;
   }
-  h3.gradient-text span {
+  h3 span {
     background-clip: initial;
     -webkit-background-clip: initial;
     -webkit-text-fill-color: initial;
@@ -720,16 +890,14 @@ h2 span {
     font-family: "Oxanium", serif;
     color: #f7f2fa;
     letter-spacing: -0.3rem;
-    font-size: 3.2rem;
-    line-height: 120%;
-  }
-  h3.gradient-text {
-    background: linear-gradient(90deg, #e54a64 48%, #fe9951 100%);
+    background: linear-gradient(90deg, #0084ff 35%, #00c4ff 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-size: 2.4rem;
+    line-height: 120%;
   }
-  h3.gradient-text span {
+  h3 span {
     background-clip: initial;
     -webkit-background-clip: initial;
     -webkit-text-fill-color: initial;
@@ -741,16 +909,14 @@ h2 span {
     font-family: "Oxanium", serif;
     color: #f7f2fa;
     letter-spacing: -0.3rem;
-    font-size: 4rem;
-    line-height: 120%;
-  }
-  h3.gradient-text {
-    background: linear-gradient(90deg, #e54a64 48%, #fe9951 100%);
+    background: linear-gradient(90deg, #0084ff 35%, #00c4ff 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-size: 2.4rem;
+    line-height: 120%;
   }
-  h3.gradient-text span {
+  h3 span {
     background-clip: initial;
     -webkit-background-clip: initial;
     -webkit-text-fill-color: initial;
@@ -762,16 +928,14 @@ h2 span {
     font-family: "Oxanium", serif;
     color: #f7f2fa;
     letter-spacing: -0.3rem;
-    font-size: 5.6rem;
-    line-height: 120%;
-  }
-  h3.gradient-text {
-    background: linear-gradient(90deg, #e54a64 48%, #fe9951 100%);
+    background: linear-gradient(90deg, #0084ff 35%, #00c4ff 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-size: 3.2rem;
+    line-height: 120%;
   }
-  h3.gradient-text span {
+  h3 span {
     background-clip: initial;
     -webkit-background-clip: initial;
     -webkit-text-fill-color: initial;
@@ -784,16 +948,14 @@ h2 span {
     font-family: "Oxanium", serif;
     color: #f7f2fa;
     letter-spacing: -0.3rem;
-    font-size: 1.8rem;
-    line-height: 130%;
-  }
-  h4.gradient-text {
-    background: linear-gradient(90deg, #e54a64 48%, #fe9951 100%);
+    background: linear-gradient(90deg, #0084ff 35%, #00c4ff 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-size: 1.8rem;
+    line-height: 130%;
   }
-  h4.gradient-text span {
+  h4 span {
     background-clip: initial;
     -webkit-background-clip: initial;
     -webkit-text-fill-color: initial;
@@ -805,16 +967,14 @@ h2 span {
     font-family: "Oxanium", serif;
     color: #f7f2fa;
     letter-spacing: -0.3rem;
-    font-size: 1.8rem;
-    line-height: 130%;
-  }
-  h4.gradient-text {
-    background: linear-gradient(90deg, #e54a64 48%, #fe9951 100%);
+    background: linear-gradient(90deg, #0084ff 35%, #00c4ff 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-size: 1.8rem;
+    line-height: 130%;
   }
-  h4.gradient-text span {
+  h4 span {
     background-clip: initial;
     -webkit-background-clip: initial;
     -webkit-text-fill-color: initial;
@@ -826,16 +986,14 @@ h2 span {
     font-family: "Oxanium", serif;
     color: #f7f2fa;
     letter-spacing: -0.3rem;
+    background: linear-gradient(90deg, #0084ff 35%, #00c4ff 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-size: 2.4rem;
     line-height: 130%;
   }
-  h4.gradient-text {
-    background: linear-gradient(90deg, #e54a64 48%, #fe9951 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-  h4.gradient-text span {
+  h4 span {
     background-clip: initial;
     -webkit-background-clip: initial;
     -webkit-text-fill-color: initial;
@@ -847,16 +1005,14 @@ h2 span {
     font-family: "Oxanium", serif;
     color: #f7f2fa;
     letter-spacing: -0.3rem;
-    font-size: 4rem;
-    line-height: 130%;
-  }
-  h4.gradient-text {
-    background: linear-gradient(90deg, #e54a64 48%, #fe9951 100%);
+    background: linear-gradient(90deg, #0084ff 35%, #00c4ff 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-size: 4rem;
+    line-height: 130%;
   }
-  h4.gradient-text span {
+  h4 span {
     background-clip: initial;
     -webkit-background-clip: initial;
     -webkit-text-fill-color: initial;
@@ -869,16 +1025,14 @@ h2 span {
     font-family: "Oxanium", serif;
     color: #f7f2fa;
     letter-spacing: -0.3rem;
-    font-size: 1.6rem;
-    line-height: 150%;
-  }
-  h5.gradient-text {
-    background: linear-gradient(90deg, #e54a64 48%, #fe9951 100%);
+    background: linear-gradient(90deg, #0084ff 35%, #00c4ff 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-size: 1.6rem;
+    line-height: 150%;
   }
-  h5.gradient-text span {
+  h5 span {
     background-clip: initial;
     -webkit-background-clip: initial;
     -webkit-text-fill-color: initial;
@@ -890,16 +1044,14 @@ h2 span {
     font-family: "Oxanium", serif;
     color: #f7f2fa;
     letter-spacing: -0.3rem;
-    font-size: 1.6rem;
-    line-height: 150%;
-  }
-  h5.gradient-text {
-    background: linear-gradient(90deg, #e54a64 48%, #fe9951 100%);
+    background: linear-gradient(90deg, #0084ff 35%, #00c4ff 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-size: 1.6rem;
+    line-height: 150%;
   }
-  h5.gradient-text span {
+  h5 span {
     background-clip: initial;
     -webkit-background-clip: initial;
     -webkit-text-fill-color: initial;
@@ -911,16 +1063,14 @@ h2 span {
     font-family: "Oxanium", serif;
     color: #f7f2fa;
     letter-spacing: -0.3rem;
-    font-size: 1.8rem;
-    line-height: 150%;
-  }
-  h5.gradient-text {
-    background: linear-gradient(90deg, #e54a64 48%, #fe9951 100%);
+    background: linear-gradient(90deg, #0084ff 35%, #00c4ff 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-size: 1.8rem;
+    line-height: 150%;
   }
-  h5.gradient-text span {
+  h5 span {
     background-clip: initial;
     -webkit-background-clip: initial;
     -webkit-text-fill-color: initial;
@@ -932,16 +1082,14 @@ h2 span {
     font-family: "Oxanium", serif;
     color: #f7f2fa;
     letter-spacing: -0.3rem;
+    background: linear-gradient(90deg, #0084ff 35%, #00c4ff 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-size: 2.4rem;
     line-height: 140%;
   }
-  h5.gradient-text {
-    background: linear-gradient(90deg, #e54a64 48%, #fe9951 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-  h5.gradient-text span {
+  h5 span {
     background-clip: initial;
     -webkit-background-clip: initial;
     -webkit-text-fill-color: initial;
@@ -954,16 +1102,14 @@ h2 span {
     font-family: "Oxanium", serif;
     color: #f7f2fa;
     letter-spacing: -0.3rem;
-    font-size: 1.2rem;
-    line-height: 150%;
-  }
-  h6.gradient-text {
-    background: linear-gradient(90deg, #e54a64 48%, #fe9951 100%);
+    background: linear-gradient(90deg, #0084ff 35%, #00c4ff 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-size: 1.2rem;
+    line-height: 150%;
   }
-  h6.gradient-text span {
+  h6 span {
     background-clip: initial;
     -webkit-background-clip: initial;
     -webkit-text-fill-color: initial;
@@ -975,16 +1121,14 @@ h2 span {
     font-family: "Oxanium", serif;
     color: #f7f2fa;
     letter-spacing: -0.3rem;
-    font-size: 1.2rem;
-    line-height: 150%;
-  }
-  h6.gradient-text {
-    background: linear-gradient(90deg, #e54a64 48%, #fe9951 100%);
+    background: linear-gradient(90deg, #0084ff 35%, #00c4ff 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-size: 1.2rem;
+    line-height: 150%;
   }
-  h6.gradient-text span {
+  h6 span {
     background-clip: initial;
     -webkit-background-clip: initial;
     -webkit-text-fill-color: initial;
@@ -996,16 +1140,14 @@ h2 span {
     font-family: "Oxanium", serif;
     color: #f7f2fa;
     letter-spacing: -0.3rem;
+    background: linear-gradient(90deg, #0084ff 35%, #00c4ff 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-size: 1.4rem;
     line-height: 150%;
   }
-  h6.gradient-text {
-    background: linear-gradient(90deg, #e54a64 48%, #fe9951 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-  h6.gradient-text span {
+  h6 span {
     background-clip: initial;
     -webkit-background-clip: initial;
     -webkit-text-fill-color: initial;
@@ -1017,16 +1159,14 @@ h2 span {
     font-family: "Oxanium", serif;
     color: #f7f2fa;
     letter-spacing: -0.3rem;
-    font-size: 1.6rem;
-    line-height: 140%;
-  }
-  h6.gradient-text {
-    background: linear-gradient(90deg, #e54a64 48%, #fe9951 100%);
+    background: linear-gradient(90deg, #0084ff 35%, #00c4ff 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-size: 1.6rem;
+    line-height: 140%;
   }
-  h6.gradient-text span {
+  h6 span {
     background-clip: initial;
     -webkit-background-clip: initial;
     -webkit-text-fill-color: initial;
@@ -1035,12 +1175,14 @@ h2 span {
 }
 
 p,
-label {
+label,
+li {
   color: #f7f2fa;
 }
 @media screen and (max-width: 540px) {
   p,
-  label {
+  label,
+  li {
     font-family: "Open Sans", serif;
     font-size: 1.4rem;
     line-height: 130%;
@@ -1048,7 +1190,8 @@ label {
 }
 @media screen and (min-width: 540px) {
   p,
-  label {
+  label,
+  li {
     font-family: "Open Sans", serif;
     font-size: 1.4rem;
     line-height: 130%;
@@ -1056,7 +1199,8 @@ label {
 }
 @media screen and (min-width: 768px) {
   p,
-  label {
+  label,
+  li {
     font-family: "Open Sans", serif;
     font-size: 1.8rem;
     line-height: 130%;
@@ -1064,7 +1208,8 @@ label {
 }
 @media screen and (min-width: 960px) {
   p,
-  label {
+  label,
+  li {
     font-family: "Open Sans", serif;
     font-size: 2.4rem;
     line-height: 130%;
@@ -1118,19 +1263,6 @@ select {
   color: inherit;
 }
 
-strong {
-  font-family: "Open Sans", serif;
-  font-size: 2.4rem;
-  line-height: 130%;
-}
-@media screen and (min-width: 540px) {
-  strong {
-    font-family: "Open Sans", serif;
-    font-size: 1.4rem;
-    line-height: 130%;
-  }
-}
-
 .buttons {
   display: flex;
   gap: 0.8rem;
@@ -1151,7 +1283,7 @@ strong {
 }
 
 .btn-secondary {
-  background: linear-gradient(90deg, #e54a64 48%, #fe9951 100%);
+  background: linear-gradient(15deg, #0084ff 48%, #00c3ff 100%);
   border: transparent;
 }
 
@@ -1174,6 +1306,14 @@ body {
 
 .border {
   border: 1px solid #f00;
+}
+
+img {
+  width: 100%;
+}
+
+ul {
+  list-style: none;
 }
 
 .navbar {
@@ -1256,11 +1396,12 @@ body {
 }
 
 .header-wrapper {
-  width: 100vw;
+  width: 100%;
   background: linear-gradient(182deg, rgba(0, 0, 0, 0) 67.62%, #000 93.88%), linear-gradient(0deg, rgba(0, 0, 0, 0) 71.5%, rgba(0, 0, 0, 0.55) 100%), linear-gradient(270deg, rgba(0, 0, 0, 0) 33.5%, rgba(0, 0, 0, 0.55) 73.5%), url("../../img/hero-banner4.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  overflow: hidden;
 }
 
 .header {
