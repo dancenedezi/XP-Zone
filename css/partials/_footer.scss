@@ -59,6 +59,17 @@
   }
 }
 
+.footer-lang {
+  label {
+    width: 0.1px;
+    height: 0.1px;
+    overflow: hidden;
+    opacity: 0;
+    pointer-events: none;
+    font-size: 0.01px;
+  }
+}
+
 .footer-links {
   display: flex;
   flex-direction: column;
