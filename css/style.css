@@ -846,13 +846,13 @@
   h1 {
     font-family: "Oxanium", serif;
     color: #f7f2fa;
-    letter-spacing: -0.3rem;
     background: linear-gradient(90deg, #0084ff 35%, #00c4ff 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 3.2rem;
     line-height: 120%;
+    letter-spacing: -0.3rem;
   }
   h1 span {
     background-clip: initial;
@@ -865,13 +865,13 @@
   h1 {
     font-family: "Oxanium", serif;
     color: #f7f2fa;
-    letter-spacing: -0.3rem;
     background: linear-gradient(90deg, #0084ff 35%, #00c4ff 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 3.2rem;
     line-height: 120%;
+    letter-spacing: -0.3rem;
   }
   h1 span {
     background-clip: initial;
@@ -884,13 +884,13 @@
   h1 {
     font-family: "Oxanium", serif;
     color: #f7f2fa;
-    letter-spacing: -0.3rem;
     background: linear-gradient(90deg, #0084ff 35%, #00c4ff 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 4rem;
     line-height: 120%;
+    letter-spacing: -0.3rem;
   }
   h1 span {
     background-clip: initial;
@@ -903,13 +903,13 @@
   h1 {
     font-family: "Oxanium", serif;
     color: #f7f2fa;
-    letter-spacing: -0.3rem;
     background: linear-gradient(90deg, #0084ff 35%, #00c4ff 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 6rem;
     line-height: 100%;
+    letter-spacing: -0.3rem;
   }
   h1 span {
     background-clip: initial;
@@ -938,13 +938,13 @@ h2 span {
   h2 {
     font-family: "Oxanium", serif;
     color: #f7f2fa;
-    letter-spacing: -0.3rem;
     background: linear-gradient(90deg, #0084ff 35%, #00c4ff 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 3.2rem;
     line-height: 120%;
+    letter-spacing: -0.3rem;
   }
   h2 span {
     background-clip: initial;
@@ -957,13 +957,13 @@ h2 span {
   h2 {
     font-family: "Oxanium", serif;
     color: #f7f2fa;
-    letter-spacing: -0.3rem;
     background: linear-gradient(90deg, #0084ff 35%, #00c4ff 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 3.2rem;
     line-height: 120%;
+    letter-spacing: -0.3rem;
   }
   h2 span {
     background-clip: initial;
@@ -976,13 +976,13 @@ h2 span {
   h2 {
     font-family: "Oxanium", serif;
     color: #f7f2fa;
-    letter-spacing: -0.3rem;
     background: linear-gradient(90deg, #0084ff 35%, #00c4ff 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 4rem;
     line-height: 120%;
+    letter-spacing: -0.3rem;
   }
   h2 span {
     background-clip: initial;
@@ -995,13 +995,13 @@ h2 span {
   h2 {
     font-family: "Oxanium", serif;
     color: #f7f2fa;
-    letter-spacing: -0.3rem;
     background: linear-gradient(90deg, #0084ff 35%, #00c4ff 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 4.8rem;
     line-height: 110%;
+    letter-spacing: -0.3rem;
   }
   h2 span {
     background-clip: initial;
@@ -1015,7 +1015,6 @@ h2 span {
   h3 {
     font-family: "Oxanium", serif;
     color: #f7f2fa;
-    letter-spacing: -0.3rem;
     background: linear-gradient(90deg, #0084ff 35%, #00c4ff 100%);
     background-clip: text;
     -webkit-background-clip: text;
@@ -1034,7 +1033,6 @@ h2 span {
   h3 {
     font-family: "Oxanium", serif;
     color: #f7f2fa;
-    letter-spacing: -0.3rem;
     background: linear-gradient(90deg, #0084ff 35%, #00c4ff 100%);
     background-clip: text;
     -webkit-background-clip: text;
@@ -1053,7 +1051,6 @@ h2 span {
   h3 {
     font-family: "Oxanium", serif;
     color: #f7f2fa;
-    letter-spacing: -0.3rem;
     background: linear-gradient(90deg, #0084ff 35%, #00c4ff 100%);
     background-clip: text;
     -webkit-background-clip: text;
@@ -1072,7 +1069,6 @@ h2 span {
   h3 {
     font-family: "Oxanium", serif;
     color: #f7f2fa;
-    letter-spacing: -0.3rem;
     background: linear-gradient(90deg, #0084ff 35%, #00c4ff 100%);
     background-clip: text;
     -webkit-background-clip: text;
@@ -1092,7 +1088,6 @@ h2 span {
   h4 {
     font-family: "Oxanium", serif;
     color: #f7f2fa;
-    letter-spacing: -0.3rem;
     background: linear-gradient(90deg, #0084ff 35%, #00c4ff 100%);
     background-clip: text;
     -webkit-background-clip: text;
@@ -1111,7 +1106,6 @@ h2 span {
   h4 {
     font-family: "Oxanium", serif;
     color: #f7f2fa;
-    letter-spacing: -0.3rem;
     background: linear-gradient(90deg, #0084ff 35%, #00c4ff 100%);
     background-clip: text;
     -webkit-background-clip: text;
@@ -1130,7 +1124,24 @@ h2 span {
   h4 {
     font-family: "Oxanium", serif;
     color: #f7f2fa;
-    letter-spacing: -0.3rem;
+    background: linear-gradient(90deg, #0084ff 35%, #00c4ff 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2rem;
+    line-height: 130%;
+  }
+  h4 span {
+    background-clip: initial;
+    -webkit-background-clip: initial;
+    -webkit-text-fill-color: initial;
+    color: inherit;
+  }
+}
+@media screen and (min-width: 960px) {
+  h4 {
+    font-family: "Oxanium", serif;
+    color: #f7f2fa;
     background: linear-gradient(90deg, #0084ff 35%, #00c4ff 100%);
     background-clip: text;
     -webkit-background-clip: text;
@@ -1145,31 +1156,11 @@ h2 span {
     color: inherit;
   }
 }
-@media screen and (min-width: 960px) {
-  h4 {
-    font-family: "Oxanium", serif;
-    color: #f7f2fa;
-    letter-spacing: -0.3rem;
-    background: linear-gradient(90deg, #0084ff 35%, #00c4ff 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 4rem;
-    line-height: 130%;
-  }
-  h4 span {
-    background-clip: initial;
-    -webkit-background-clip: initial;
-    -webkit-text-fill-color: initial;
-    color: inherit;
-  }
-}
 
 @media screen and (max-width: 540px) {
   h5 {
     font-family: "Oxanium", serif;
     color: #f7f2fa;
-    letter-spacing: -0.3rem;
     background: linear-gradient(90deg, #0084ff 35%, #00c4ff 100%);
     background-clip: text;
     -webkit-background-clip: text;
@@ -1188,7 +1179,6 @@ h2 span {
   h5 {
     font-family: "Oxanium", serif;
     color: #f7f2fa;
-    letter-spacing: -0.3rem;
     background: linear-gradient(90deg, #0084ff 35%, #00c4ff 100%);
     background-clip: text;
     -webkit-background-clip: text;
@@ -1207,7 +1197,6 @@ h2 span {
   h5 {
     font-family: "Oxanium", serif;
     color: #f7f2fa;
-    letter-spacing: -0.3rem;
     background: linear-gradient(90deg, #0084ff 35%, #00c4ff 100%);
     background-clip: text;
     -webkit-background-clip: text;
@@ -1226,7 +1215,6 @@ h2 span {
   h5 {
     font-family: "Oxanium", serif;
     color: #f7f2fa;
-    letter-spacing: -0.3rem;
     background: linear-gradient(90deg, #0084ff 35%, #00c4ff 100%);
     background-clip: text;
     -webkit-background-clip: text;
@@ -1246,7 +1234,6 @@ h2 span {
   h6 {
     font-family: "Oxanium", serif;
     color: #f7f2fa;
-    letter-spacing: -0.3rem;
     background: linear-gradient(90deg, #0084ff 35%, #00c4ff 100%);
     background-clip: text;
     -webkit-background-clip: text;
@@ -1265,7 +1252,6 @@ h2 span {
   h6 {
     font-family: "Oxanium", serif;
     color: #f7f2fa;
-    letter-spacing: -0.3rem;
     background: linear-gradient(90deg, #0084ff 35%, #00c4ff 100%);
     background-clip: text;
     -webkit-background-clip: text;
@@ -1284,7 +1270,6 @@ h2 span {
   h6 {
     font-family: "Oxanium", serif;
     color: #f7f2fa;
-    letter-spacing: -0.3rem;
     background: linear-gradient(90deg, #0084ff 35%, #00c4ff 100%);
     background-clip: text;
     -webkit-background-clip: text;
@@ -1303,7 +1288,6 @@ h2 span {
   h6 {
     font-family: "Oxanium", serif;
     color: #f7f2fa;
-    letter-spacing: -0.3rem;
     background: linear-gradient(90deg, #0084ff 35%, #00c4ff 100%);
     background-clip: text;
     -webkit-background-clip: text;
@@ -1648,6 +1632,97 @@ ul {
 }
 #select-filter option {
   color: #232224;
+}
+
+.footer-wrapper {
+  width: 100%;
+  background: url("../../img/bg-footer.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  margin-top: 30vh;
+}
+
+.footer {
+  max-width: 1440px;
+  padding-inline: 0.8rem;
+  margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 768px) {
+  .footer {
+    padding-inline: 1.6rem;
+  }
+}
+@media screen and (min-width: 960px) {
+  .footer {
+    padding-inline: 2.4rem;
+  }
+}
+
+.footer-top {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  border-bottom: 1px solid #454446;
+}
+.footer-top h3 {
+  margin-bottom: 1.6rem;
+}
+.footer-top select {
+  background: transparent;
+  border: none;
+  outline: none;
+}
+.footer-top select option {
+  color: #232224;
+}
+@media screen and (min-width: 768px) {
+  .footer-top {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+}
+.footer-links h4 {
+  margin-bottom: 1rem;
+}
+.footer-links .list {
+  display: flex;
+  flex-direction: column;
+}
+.footer-links .list-item {
+  font-size: 1.6rem;
+}
+.footer-links a {
+  text-decoration: none;
+  color: #f7f2fa;
+  transition: 0.5s;
+  font-size: 1.6rem;
+}
+.footer-links a:hover {
+  opacity: 0.5;
+}
+@media screen and (min-width: 768px) {
+  .footer-links {
+    flex-direction: row;
+    gap: 3.2rem;
+  }
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-bottom img {
+  max-width: 12rem;
 }
 
 .card {

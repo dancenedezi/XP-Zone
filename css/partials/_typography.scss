@@ -4,7 +4,6 @@
 @mixin typeface-1($size, $device: desktop) {
   font-family: "Oxanium", serif;
   color: $white-normal;
-  letter-spacing: -0.3rem;
 
   background: $gradient-title;
   background-clip: text;
@@ -22,24 +21,30 @@
   @if $size == h1 and $device == desktop {
     font-size: 6rem;
     line-height: 100%;
+    letter-spacing: -0.3rem;
   } @else if $size == h1 and $device == tablet {
     font-size: 4rem;
     line-height: 120%;
+    letter-spacing: -0.3rem;
   } @else if $size == h1 and $device == mobile {
     font-size: 3.2rem;
     line-height: 120%;
+    letter-spacing: -0.3rem;
   }
 
   // H2
   @else if $size == h2 and $device == desktop {
     font-size: 4.8rem;
     line-height: 110%;
+    letter-spacing: -0.3rem;
   } @else if $size == h2 and $device == tablet {
     font-size: 4rem;
     line-height: 120%;
+    letter-spacing: -0.3rem;
   } @else if $size == h2 and $device == mobile {
     font-size: 3.2rem;
     line-height: 120%;
+    letter-spacing: -0.3rem;
   }
 
   // H3
@@ -56,10 +61,10 @@
 
   // H4
   @else if $size == h4 and $device == desktop {
-    font-size: 4rem;
+    font-size: 2.4rem;
     line-height: 130%;
   } @else if $size == h4 and $device == tablet {
-    font-size: 2.4rem;
+    font-size: 2rem;
     line-height: 130%;
   } @else if $size == h4 and $device == mobile {
     font-size: 1.8rem;
