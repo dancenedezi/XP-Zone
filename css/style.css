@@ -553,7 +553,7 @@
 }
 
 .consoles {
-  height: 3.6rem;
+  height: 1.2rem;
   max-width: 1440px;
   margin-inline: auto;
   padding-inline: 0.8rem;
@@ -577,12 +577,14 @@
   .consoles {
     display: flex;
     padding-inline: 1.6rem;
+    height: 2.4rem;
   }
 }
 @media screen and (min-width: 960px) {
   .consoles {
     display: flex;
     padding-inline: 2.4rem;
+    height: 3.6rem;
   }
 }
 

@@ -152,7 +152,7 @@ $container-s: 540px;
 
 // CONSOLES
 .consoles {
-  height: 3.6rem;
+  height: 1.2rem;
   max-width: $container-xxl;
 
   margin-inline: auto;
@@ -180,11 +180,13 @@ $container-s: 540px;
   @include responsive(m) {
     display: flex;
     padding-inline: 1.6rem;
+    height: 2.4rem;
   }
 
   @include responsive(l) {
     display: flex;
     padding-inline: 2.4rem;
+    height: 3.6rem;
   }
 }
 
